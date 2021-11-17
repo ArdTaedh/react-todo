@@ -1,0 +1,36 @@
+.todos-wrapper {
+  display: flex;
+  background-color: white;
+  width: 30%;
+  margin: 0 auto;
+  padding:  1rem;
+  border-radius: 1rem;
+  transition: all 0.2s;
+}
+
+.empty {
+  width: 100%;
+  text-align: center;
+  font-size: 1.1rem;
+  transition: all 0.2s;
+}
+
+.todos-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: all 0.2s;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  list-style: none;
+  transition: all 0.2s;
+}
